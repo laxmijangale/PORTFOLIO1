@@ -1,0 +1,215 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow: hidden;
+    padding-top: 110px;
+}
+
+/* Container */
+.container {
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container a{
+    position: relative;
+    top: -16px; 
+    text-decoration: none;
+    font-size: 15px; 
+}
+.container h1{
+    font-size: 40px;
+}
+.cont{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.cont h1{
+    font-size: 60px;
+}
+.cont h2{
+    padding-top: 100px;
+}
+.img{
+    width: 850px;
+    height: 650px;
+   float: right;
+   justify-content: right;
+   margin: 20px;
+   padding: 10px;
+   position: relative;
+   top: 30px;
+   position: fixed;
+   padding-left: 450px;
+}
+button{
+    color: #070202;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #93bcc4;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #afa5a5;
+}
+
+/* Header and Navbar */
+header {
+    background-color: #333;
+    padding-top: 10px;
+    padding-bottom: -60px;
+    margin-bottom: -35px;
+    position: fixed;
+    color: white;
+    z-index: 1;
+  width: 100%;
+  height: 150px;
+  top: 0;
+  left: 0;
+}
+
+header h1 {
+    margin: 0 20px;
+    padding-right: 1100px;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: rgb(210, 217, 220);
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+}
+header nav ul li a:hover {
+    color: white;
+  }
+
+/* Section Styling */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#home {
+    background: #afa5a5;
+    color: #032a3a;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 185px;
+    padding-top: 140px;
+    padding-right: 10%;
+}
+
+#about,#projects, #skills, #contact {
+    background-color: #93bcc4;
+}
+#contact {
+    background-color: #93bcc4;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 100px;
+    position: fixed;
+  }
+  
+  #contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  #contact .icon {
+    margin-right: 5px;
+  }
+  
+  #contact a {
+    padding-top: 20px;
+  }
+  #projects {
+    padding-top: 150px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    background-color: #f4ebeb;
+    cursor: pointer;
+}
+.icon:hover {
+    background-color: #f7f7f7;
+    border-color: #ccc;
+  }
+#contact li {
+    cursor: pointer;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.project {
+    background-color: #afa5a5;
+    border: 1px solid #241a1a;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+section {
+    height: 100vh;
+  width: 100vw;
+  display: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  section.active {
+    display: block;
+  }
+  body h2{
+    font-size: 2.5rem;
+  }
