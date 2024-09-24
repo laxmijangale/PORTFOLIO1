@@ -73,10 +73,7 @@ button:hover{
 /* Header and Navbar */
 header {
     background-color: #333;
-    padding-top: 10px;
-    padding-bottom: -60px;
-    margin-bottom: -35px;
-    position: fixed;
+    position: fixed; 
     color: white;
     z-index: 1;
   width: 100%;
@@ -88,6 +85,8 @@ header {
 header h1 {
     margin: 0 20px;
     padding-right: 1100px;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 header nav ul li {
     display: inline;
